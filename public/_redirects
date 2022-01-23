@@ -1,2 +1,1 @@
-/api/people https://lit-falls-49308.herokuapp.com/api/people 200
-/api/people/:id https://lit-falls-49308.herokuapp.com/api/people/:id 200
+/api/* https://lit-falls-49308.herokuapp.com/:splat 200
