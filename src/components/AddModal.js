@@ -16,6 +16,7 @@ const Add = ({isOpen, handleClose, editData}) => {
 
   useEffect(() => {
     reset(editData);
+    //eslint-disable-next-line
   }, [editData]);
 
   const onSubmit = (data) => {

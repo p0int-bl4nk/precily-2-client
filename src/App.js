@@ -10,6 +10,7 @@ function App() {
   const dispatch = useDispatch();
   useEffect(() => {
     dispatch(actionInitPeople());
+    //eslint-disable-next-line
   }, []);
 
   return (
